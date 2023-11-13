@@ -1,7 +1,10 @@
-const App = () => (
-  <div>
+const App = () => {
+  console.log("Hello from component")
+  return (
+    <div>
     <p>Hello world</p>
-  </div>
-)
+    </div>
+  )
+}
 
 export default App
